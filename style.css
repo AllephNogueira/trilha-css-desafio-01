@@ -203,3 +203,40 @@ footer a {
 
 
 
+
+
+@media (max-width: 768px) {
+  .banner-content,
+  #course-content,
+  .module,
+  #course-content h2,
+  #professional-challenges p {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  header button {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+
+  #course-content h2 {
+    font-size: 24px;
+  }
+
+  #course-content p,
+  #professional-challenges p {
+    font-size: 14px;
+  }
+
+  .dio-logo {
+    width: 80%;
+    height: auto;
+  }
+
+  footer {
+    height: auto;
+    padding: 20px 0;
+  }
+}
