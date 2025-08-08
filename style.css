@@ -206,28 +206,66 @@ footer a {
 
 
 @media (max-width: 768px) {
-  .banner-content,
-  #course-content,
-  .module,
-  #course-content h2,
-  #professional-challenges p {
+  .banner {
+    height: auto;
+    padding: 20px;
+  }
+
+  .banner-content {
     width: 90%;
     height: auto;
-    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header p {
+    font-size: 1rem;
+    padding: 0 10px;
   }
 
   header button {
     width: 90%;
-    font-size: 1.2rem;
+    height: auto;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  #course-content {
+    width: 90%;
+    height: auto;
+    padding: 16px;
   }
 
   #course-content h2 {
-    font-size: 24px;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
-  #course-content p,
+  #course-content p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .module {
+    width: 90%;
+    height: auto;
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  #professional-challenges img {
+    width: 100%;
+    height: auto;
+  }
+
   #professional-challenges p {
-    font-size: 14px;
+    width: 90%;
+    font-size: 1rem;
+    padding: 0 10px;
   }
 
   .dio-logo {
@@ -237,6 +275,12 @@ footer a {
 
   footer {
     height: auto;
-    padding: 20px 0;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  footer p {
+    text-align: center;
+    font-size: 0.9rem;
   }
 }
